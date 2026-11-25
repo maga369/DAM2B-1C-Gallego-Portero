@@ -10,6 +10,12 @@
     -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
+    <!--
+        Permís per declarar el poder configurar alarmes a
+        l'aplicació del rellotge mitjançant AlarmClock.ACTION_SET_ALARM.
+    -->
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
     <application
         android:allowBackup="true"
         android:icon="@android:drawable/sym_def_app_icon"

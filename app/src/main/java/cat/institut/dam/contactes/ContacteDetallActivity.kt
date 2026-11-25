@@ -158,7 +158,7 @@ class ContacteDetallActivity : AppCompatActivity() {
     private fun llancaIntentSegur(intent: Intent) {
         try {
             startActivity(intent)
-        } catch (e: ActivityNotFoundException) {
+        } catch (e: Exception) {
             Toast.makeText(this, R.string.error_app_no_disponible, Toast.LENGTH_LONG).show()
         }
     }
